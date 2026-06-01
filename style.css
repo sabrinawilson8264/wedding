@@ -1,0 +1,23 @@
+body {
+
+ background-image: url("images/background.png");
+    background-size: cover;
+    height: vh;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+#theWholePage {
+    box-sizing: border-box;
+    width : vw;
+    height : vh;
+    color :aqua;
+}
+
+.p {
+    align-self: center;
+    justify-self: center;
+}
