@@ -12,14 +12,25 @@ img {
     width: auto;
 }
 
-ul {
+.textStuff {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 li {
     list-style: none;
+    /* color: #7587dc; */
+    color: #7b608f;
+
+}
+
+a {
+    color:#7b608f
+}
+p {
+    color:#7587dc
 }
 
