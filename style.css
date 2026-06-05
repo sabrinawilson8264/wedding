@@ -18,6 +18,8 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  padding-left: 8vh;
+  padding-right: 8vh;
 }
 
 li {
@@ -31,10 +33,15 @@ ul {
     padding: 0;
 }
 
-a {
+a,h3 {
     color:#7b608f
 }
 p {
     color:#7587dc
+}
+
+a,p,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
