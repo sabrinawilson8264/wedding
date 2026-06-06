@@ -1,41 +1,74 @@
 body {
     background-color: #262729;
     margin: 0;
-    height:99vh;
-    width: 99vw;
+    height:99svh;
+    width: 99svw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
+@media (orientation: portrait) {
 .imageArea {
-    background-image: url(./images/backgroundLandscape.png);
+    background-image: url(./images/background.png);
     background-position: center;
     background-size: cover;
-    height:99vh;
-    width: 139vh;
+    height:139svw;
+    width: 99svw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .theMiddleBit {
-    padding-left: 21vh;
-    padding-right: 21vh;
+    padding-left: 21svw;
+    padding-right: 21svw;
     width: auto;
     height:auto;
     text-align: center;
 }
 .headerPadding {
-    height: 42vh;
-    width: 139vh;
+    height: 42svw;
+    width: 99svw;
 }
 
 .footerPadding {
-    height:21vh;
-    width: 139vh;
+    height:21svw;
+    width: 99svw;
 }
+
+}
+
+@media (orientation: landscape) {
+ .imageArea {
+    background-image: url(./images/backgroundLandscape.png);
+    background-position: center;
+    background-size: cover;
+    height:99svh;
+    width: 139svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.theMiddleBit {
+    padding-left: 21svh;
+    padding-right: 21svh;
+    width: auto;
+    height:auto;
+    text-align: center;
+}
+.headerPadding {
+    height: 42svh;
+    width: 139svh;
+}
+
+.footerPadding {
+    height:21svh;
+    width: 139svh;
+}   
+}
+
 
 li {
     list-style: none;
