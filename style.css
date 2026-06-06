@@ -5,35 +5,47 @@ body {
     width: 99vw;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-img {
-    height: 99vh;
+
+.imageArea {
+    background-image: url(./images/backgroundLandscape.png);
+    background-position: center;
+    background-size: cover;
+    height:99vh;
+    width: 139vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.theMiddleBit {
+    padding-left: 21vh;
+    padding-right: 21vh;
     width: auto;
+    height:auto;
+    text-align: center;
+}
+.headerPadding {
+    height: 42vh;
+    width: 139vh;
 }
 
-.textStuff {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  padding-left: 8vh;
-  padding-right: 8vh;
+.footerPadding {
+    height:21vh;
+    width: 139vh;
 }
 
 li {
     list-style: none;
-    /* color: #7587dc; */
-    color: #7b608f;
-
 }
 
 ul {
     padding: 0;
 }
 
-a,h3 {
+a,h3,li {
     color:#7b608f
 }
 p {
@@ -43,5 +55,6 @@ p {
 a,p,h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+    font-size: small;
 }
 
